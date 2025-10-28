@@ -6,10 +6,10 @@
 -- --
 
 ## [ 작업 확인 방법 ]
-- 기존 작업본은 'Branch_Backup' 입니다.
+- 기존 작업본은 'Branch_KT_Backup' 입니다.
   - 이 Branch에서는 제출 전까지 제가 작업한 내역을 확인하실 수 있습니다.
 
-- 최종 제출본은 'Branch_KT_Main' 입니다.
+- 최종 제출본은 'Branch_KT_Result' 입니다.
   - 이 Branch에서는 제출에 필요한 내용만 추려내어 업로드했습니다.
   - 이 과정에서 구동에 불필요한 미완성 작업본 'Scene_002Stack' 과 'Scene_003Topdown' 을 배제하게 되었습니다.
 
