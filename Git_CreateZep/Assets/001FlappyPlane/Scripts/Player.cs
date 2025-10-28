@@ -59,15 +59,15 @@ public class Player : MonoBehaviour
             // 게임 오버 딜레이 시간 값 판별_0보다 작거나 같을 경우
             if (gameOverDelay <= 0)
             {
-                // Player가 입력 신호_Space Bar or 마우스 좌클릭(0)을 송신했을 경우
-                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+                // Player가 입력 신호_R을 송신했을 경우
+                if (Input.GetKeyDown(KeyCode.R))
                 {
                     // 싱글톤_GameManager 내 게임 재시작 메서드 호출
                     gameManager.RestartGame();
                 }
 
-                // Player가 입력 신호_마우스 우클릭(1)을 송신했을 경우
-                if (Input.GetMouseButtonDown(1))
+                // Player가 입력 신호_Q를 송신했을 경우
+                if (Input.GetKeyDown(KeyCode.Q))
                 {
                     // 싱글톤_GameManager 내 씬 변경 메서드 호출
                     gameManager.ChangeScene();
@@ -83,8 +83,8 @@ public class Player : MonoBehaviour
         // 사망 상태가 아닐 경우
         else
         {
-            // Player가 입력 신호_Space Bar or 마우스 좌클릭(0)을 송신했을 경우
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            // Player가 입력 신호_Space Bar를 송신했을 경우
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 // 점프 상태 On
                 isFlap = true;
